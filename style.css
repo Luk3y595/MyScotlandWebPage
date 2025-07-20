@@ -1,8 +1,17 @@
 .hero-image{
     background-image: url("./images/mountains.jpg");
-    height: 311px;
-    width: 100%;
+    height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body{
+    background-color: rgb(0, 87, 158);
+}
+
+.hero-text{
+    color: azure;
+    text-align: center;
+    font-family: 'Caledonia', serif;
 }
