@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+img{
+    width: 100%;
+}
+
 body{
     background-color: rgb(0, 87, 158);
 }
@@ -17,5 +21,18 @@ body{
     text-align: center; 
     width: 100%;
     font-size: 4rem;
-    font-family: 'Caledonia', serif;
+    font-family: 'Caledonia', serif;;
+}
+
+.info{
+    color: azure;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }
